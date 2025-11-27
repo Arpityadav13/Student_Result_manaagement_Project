@@ -1,0 +1,142 @@
+/* GENERAL PAGE STYLING */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f5f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background: #4b7bec;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* BUTTONS */
+button {
+  background: #4b7bec;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  background: #3867d6;
+}
+
+button.delete-btn {
+  background: #fc5c65;
+}
+
+button.delete-btn:hover {
+  background: #eb3b5a;
+}
+
+button.view-btn {
+  background: #20bf6b;
+}
+
+button.view-btn:hover {
+  background: #0fbf50;
+}
+
+button.edit-btn {
+  background: #fd9644;
+}
+
+button.edit-btn:hover {
+  background: #fa8231;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th {
+  background: #3867d6;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+  background: #f1f2f6;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-color: #4b7bec;
+  outline: none;
+}
+
+/* DETAILS PAGE */
+.details-box {
+  width: 40%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.details-box p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.back-btn {
+  background: #4b7bec;
+  margin-top: 20px;
+}
